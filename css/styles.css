@@ -1,0 +1,19 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+img {
+    height: auto;
+    width: 400px;
+}
+
+ul,
+p,
+ol {
+    font-style: italic;
+    font-weight: 300;
+}
