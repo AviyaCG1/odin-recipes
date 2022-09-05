@@ -1,9 +1,12 @@
 * {
+    border: 1px solid red; /* for debugging */
     font-family: 'Times New Roman', Times, serif;
 }
 
 body {
-    background-color: antiquewhite;
+    width: 900px;
+    background-color: rgb(244, 214, 179);
+    margin: 0 auto;
 }
 
 img {
@@ -16,4 +19,29 @@ p,
 ol {
     font-style: italic;
     font-weight: 300;
+}
+
+.header-container {
+    width: auto;
+    margin: 0 auto;
+}
+
+.header {
+    width: max-content;
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+.list-container {
+    display: inline-block;
+    width: 300px;
+    padding: 14px;
+    margin: 59px;
+    font-size: 30px;
+}
+
+.list-header {
+    /* text-align: center; */
+    width: max-content;
+    font-size: 35px;
 }
